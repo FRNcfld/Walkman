@@ -5,6 +5,8 @@ pluginManagement {
             name = 'MinecraftForge'
             url = 'https://maven.minecraftforge.net/'
         }
+        // Parchment 映射插件（org.parchmentmc.librarian.forgegradle）的解析地址
+        maven { url = 'https://maven.parchmentmc.org' }
     }
 }
 
